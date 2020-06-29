@@ -25,15 +25,15 @@ def count():
     print('Now I will prove to you that I can count to any number you want.')
 
     num = int(input())
-    curr = 0
-    while curr <= num:
-        print(curr, '!')
-        curr = curr + 1
+    counter = 0
+    while counter <= num:
+        print(counter, '!')
+        counter = counter + 1
 
 
 def test():
     print("Let's test your programming knowledge.")
-    # write your code here
+
     print('''
     Why do we use methods?
     1. To repeat a statement multiple times.
@@ -52,7 +52,7 @@ def end():
     print('Congratulations, have a nice day!')
 
 
-greet('Aid', '2020')  # change it as you need
+greet('Aid', '2020')
 remind_name()
 guess_age()
 count()
